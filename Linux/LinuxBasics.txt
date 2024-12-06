@@ -1,0 +1,13 @@
+>> Terminal - 
+    > Also called Terminal Emulator.
+    > It is a Graphical application where the default shell will start.
+    > Allows you to access the system through a shell.
+    > Most widely used Terminal - GNome-Terminal.
+    > Default Terminal in Ubuntu and CentOS.
+    > ShortCut key to open the Terminal - ctrl + alt + t. 
+
+>> Shell -
+    > Also known as a command interpreter.
+    > It is a program.
+    > It takes command(s) from the user and give them to the operating system's kernla to execute.
+    > Default shell is Bash.
