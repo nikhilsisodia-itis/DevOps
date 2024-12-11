@@ -49,3 +49,15 @@ Start date- 10-12-2024.
         -> HISTSIZE is an environment variable that sets the number of commands to store in the memory.
         -> By default, the value of HISTSIZE is 1000 (Ubuntu 24.04.1 LTS).
         -> The history in .bash_history is only saved when the terminal is closed.
+        -> !<command_indexNumber>: Re-run the command with the specified index number.
+        -> !!: Re-run the last command.
+        -> !-n: Re-run the nth command from the last command.
+        -> ctrl + p: Move to the previous command.
+        -> ctrl + n: Move to the next command.
+        -> ctrl + r: Search the command history. 
+        -> history -d <command_indexNumber>: Delete the command with the specified index number.
+        -> history -c: Clear the history of commands.
+    > Runnind commands withoug leaving a trace:
+        -> Giving a space before entering a command prevents it from being saved in the history.
+        -> HISTCONTROL is an environment variable that sets the commands to ignore in the history.
+        -> By default, the value of HISTCONTROL is ignoredups:ignorespace.

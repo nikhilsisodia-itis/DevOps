@@ -18,6 +18,12 @@ Keyboard Shortcuts:
 
 >> ctrl + z : Suspend the currently running command in the terminal.
 
+>> ctrl + p : Move to the previous command in the terminal. Works the same as the up arrow key.
+
+>> ctrl + n : Move to the next command in the terminal. Works the same as the down arrow key.
+
+>> ctrl + r : Search the command history in the terminal. Input the search term and press enter to execute the command.
+
 
 
 Shell Commands: 
@@ -44,6 +50,22 @@ Shell Commands:
 
 >> history : > Display the history of commands.
              > It shows a list of previously executed commands.
+
+>> !<command_indexNumber> : > Re-run a command with a specific index number from the history.
+                            > It executes the command with the specified index number from the history.
+
+>> !! : > Re-run the last command.
+
+>> !-n : > Re-run the nth command from the last command.
+        > It executes the command with the specified index number from the history.
+
+>> history -d <command_indexNumber> : > Delete a specific command from the history.
+                                      > It removes the command with the specified index number from the history.
+                                
+>> history -c : > Clear the history of commands.
+                > It deletes all the commands from the history.
+
+
 
 Command Options:
 >> ls -l : > List the contents of a directory in long format.
