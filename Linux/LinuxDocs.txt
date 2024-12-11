@@ -48,4 +48,4 @@ Start date- 10-12-2024.
         -> history command: Displays the history of commands from the .bash_history file.
         -> HISTSIZE is an environment variable that sets the number of commands to store in the memory.
         -> By default, the value of HISTSIZE is 1000 (Ubuntu 24.04.1 LTS).
-        -> The history in .bash_history is only saved when the user logs out.
+        -> The history in .bash_history is only saved when the terminal is closed.
