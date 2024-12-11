@@ -8,9 +8,15 @@ Keyboard Shortcuts:
 
 >> ctrl + d : Exit the terminal.
 
->> ctrl + a : Move the cursor to the beginning of the line.
+>> ctrl + a : Move the cursor to the beginning of the line in the terminal.
 
->> ctrl + e : Move the cursor to the end of the line.
+>> ctrl + e : In a terminal press ctrl + e to move the cursor to the end of the line.
+
+>> ctrl + u : Delete everything before the cursor in the terminal.
+
+>> ctrl + c : In the terminal, press ctrl + c to stop the currently running command or operation.
+
+>> ctrl + z : Suspend the currently running command in the terminal.
 
 
 
@@ -36,7 +42,8 @@ Shell Commands:
 >> rm <file_name> : > Remove a file.
                     > It deletes the specified file from the filesystem.
 
-
+>> history : > Display the history of commands.
+             > It shows a list of previously executed commands.
 
 Command Options:
 >> ls -l : > List the contents of a directory in long format.

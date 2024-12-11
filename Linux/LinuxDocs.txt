@@ -36,3 +36,16 @@ Start date- 10-12-2024.
         -> ctrl + d: Exit the terminal.
         -> ctrl + a: Move the cursor to the beginning of the line.
         -> ctrl + e: Move the cursor to the end of the line.
+        -> ctrl + u: Delete everything before the cursor.
+        -> ctrl + c: Stop the currently running command.
+        -> ctrl + z: Suspend the currently running command.
+    > Learning the terminal- Bash history:
+        -> Bash shell starts in the user's home directory.
+        -> .bash_history file stores the history of commands.
+        -> HISTFILESIZE is an environment variable that sets the number of commands to store.
+        -> To print the value of variable: echo $<file-name>.
+        -> By default, the value of HISTFILESIZE is 2000 (Ubuntu 24.04.1 LTS).
+        -> history command: Displays the history of commands from the .bash_history file.
+        -> HISTSIZE is an environment variable that sets the number of commands to store in the memory.
+        -> By default, the value of HISTSIZE is 1000 (Ubuntu 24.04.1 LTS).
+        -> The history in .bash_history
